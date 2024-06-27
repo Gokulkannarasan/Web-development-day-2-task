@@ -1,1 +1,106 @@
 # Web-development-day-2-task
+## AIM
+To create a registration form using html
+
+## CODE:
+```
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Gokul 's Task 2</title>
+        <style>
+            body{
+                background-image: url(3d-background-with-white-cubes.jpg);
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: 100% 100%;
+            }
+        
+        </style>
+        
+    </head>
+
+    <body>
+       
+        <center>
+            <h1>Registration form</h1>
+            <form>
+                <div>
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="fname" placeholder="Enter fname" required>
+    
+                </div>
+                <br>
+    
+                <div>
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lname" placeholder="Enter lname" required>
+
+                </div>
+                <br>
+
+                <div>
+                    <label for="gender">Gender</label>
+                    <select id="gender" name="gender" required >
+                        <option value="">select gender</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    
+                    </select>
+                    
+                </div>
+                <br>
+
+                <div>
+                    <label for="Title">Title :</label>
+
+                    <label for="mr">Mr</label>
+                    <input type="radio" id="mr" name="name"  required>
+
+                    <label for="mrs">Mrs</label>
+                    <input type="radio" id="mrs" name="name"  required>
+
+                    <label for="dr">Dr</label>
+                    <input type="radio" id="Dr" name="name"  required>
+
+                </div>
+                <br>
+
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="enter email" required>
+
+                </div>
+                <br>
+
+                <div>
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="enter password" required>
+
+                </div>
+                <br>
+
+                <div>
+                    <label for="num">Phone number</label>
+                    <input type="number" id="num" name="num" placeholder="enter phone number"  minlength="10">
+
+                </div>
+                <br>
+                
+                
+                <div>
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+
+                </div>
+
+                
+                
+            </form>
+        </center>
+        
+    </body>
+
+```
+## OUTPUT:
+![image](https://github.com/Gokulkannarasan/Web-development-day-2-task/assets/156115271/db05ca43-97d0-4dfb-8d85-9e5dc4a071eb)
